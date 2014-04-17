@@ -30,7 +30,7 @@ public class MemberTemplate extends AbstractMeetupOperations implements
 	@Override
 	public Member getDetails(String id) {
 		
-		return restTemplate.getForObject(buildUri("member/", "id", id), Member.class);
+		return restTemplate.getForObject(buildUri("member/"+id), Member.class);
 	}
 
 }
