@@ -19,6 +19,8 @@ public class Event {
 	private String description;
 	private String name;
 	private int headcount;
+	private Venue venue;
+	private Group group;
 	
 	public int getRsvp_limit() {
 		return rsvp_limit;
@@ -46,6 +48,12 @@ public class Event {
 	}
 	public int getHeadcount() {
 		return headcount;
+	}
+	public Venue getVenue() {
+		return venue;
+	}
+	public Group getGroup() {
+		return group;
 	}
 	
 }
