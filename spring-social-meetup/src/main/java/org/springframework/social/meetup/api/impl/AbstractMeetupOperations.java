@@ -1,5 +1,11 @@
 package org.springframework.social.meetup.api.impl;
 
+/**
+ * 
+ * @author  Suresh Kumar (yarli4u).
+ *
+ */
+
 import java.net.URI;
 
 import org.springframework.social.MissingAuthorizationException;

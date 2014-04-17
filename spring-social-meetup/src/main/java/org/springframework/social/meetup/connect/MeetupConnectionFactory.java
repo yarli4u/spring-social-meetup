@@ -1,5 +1,11 @@
 package org.springframework.social.meetup.connect;
 
+/**
+ * 
+ * @author  Suresh Kumar (yarli4u).
+ *
+ */
+
 import org.springframework.social.connect.support.OAuth2ConnectionFactory;
 import org.springframework.social.meetup.api.Meetup;
 

@@ -1,5 +1,11 @@
 package org.springframework.social.meetup.api.impl;
 
+/**
+ * 
+ * @author  Suresh Kumar (yarli4u).
+ *
+ */
+
 import org.springframework.social.meetup.api.Member;
 import org.springframework.social.meetup.api.MemberOperations;
 import org.springframework.web.client.RestTemplate;

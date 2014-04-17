@@ -1,5 +1,11 @@
 package org.springframework.social.meetup.config;
 
+/**
+ * 
+ * @author  Suresh Kumar (yarli4u).
+ *
+ */
+
 import org.springframework.social.UserIdSource;
 import org.springframework.social.config.xml.ApiHelper;
 import org.springframework.social.connect.Connection;

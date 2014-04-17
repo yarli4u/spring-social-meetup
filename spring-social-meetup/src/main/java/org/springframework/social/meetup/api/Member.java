@@ -1,50 +1,50 @@
 package org.springframework.social.meetup.api;
 
+/**
+ * 
+ * @author  Suresh Kumar (yarli4u).
+ *
+ */
+
+import java.math.BigInteger;
+import java.util.List;
 import java.util.Locale;
 
 public class Member {
 
 	private String bio;
-	private String status;
-	private String link;
-	private Locale locale;
-	private String city;
+	private Birthday birthday;
 	private String country;
+	private String city;
 	private String state;
 	private String email;
 	private String gender;
+	private String hometown;
 	private String id;
-	private String visited;
-	private String name;
-	private String photo_url;
+	private BigInteger joined;
+	private Locale lang;
+	private double lat;
+	private double lon;
+	private String link;
 	private int membershipCount;
-		
-	public String getStatus() {
-		return status;
+	private String name;
+	private Photo photo;
+	private String photo_url;
+	private String status;
+	private List<Topic> topics;
+	private String visited;
+	
+	public String getBio() {
+		return bio;
 	}
-	public String getLink() {
-		return link;
-	}
-	public Locale getLocale() {
-		return locale;
-	}
-	public String getCity() {
-		return city;
+	public Birthday getBirthday() {
+		return birthday;
 	}
 	public String getCountry() {
 		return country;
 	}
-	public String getId() {
-		return id;
-	}
-	public String getVisited() {
-		return visited;
-	}
-	public String getName() {
-		return name;
-	}
-	public String getBio() {
-		return bio;
+	public String getCity() {
+		return city;
 	}
 	public String getState() {
 		return state;
@@ -55,11 +55,47 @@ public class Member {
 	public String getGender() {
 		return gender;
 	}
-	public String getPhoto_url() {
-		return photo_url;
+	public String getHometown() {
+		return hometown;
+	}
+	public String getId() {
+		return id;
+	}
+	public BigInteger getJoined() {
+		return joined;
+	}
+	public Locale getLang() {
+		return lang;
+	}
+	public double getLat() {
+		return lat;
+	}
+	public double getLon() {
+		return lon;
+	}
+	public String getLink() {
+		return link;
 	}
 	public int getMembershipCount() {
 		return membershipCount;
 	}
-	
+	public String getName() {
+		return name;
+	}
+	public Photo getPhoto() {
+		return photo;
+	}
+	public String getPhoto_url() {
+		return photo_url;
+	}
+	public String getStatus() {
+		return status;
+	}
+	public List<Topic> getTopics() {
+		return topics;
+	}
+	public String getVisited() {
+		return visited;
+	}
+
 }
