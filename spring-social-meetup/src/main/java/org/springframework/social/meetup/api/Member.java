@@ -18,7 +18,7 @@ public class Member {
 	private String city;
 	private String state;
 	private String email;
-	private String gender;
+	private Gender gender;
 	private String hometown;
 	private String id;
 	private BigInteger joined;
@@ -52,7 +52,7 @@ public class Member {
 	public String getEmail() {
 		return email;
 	}
-	public String getGender() {
+	public Gender getGender() {
 		return gender;
 	}
 	public String getHometown() {
