@@ -6,6 +6,7 @@ package org.springframework.social.meetup.api.impl;
  *
  */
 
+import org.springframework.social.meetup.api.EventOperations;
 import org.springframework.social.meetup.api.Meetup;
 import org.springframework.social.meetup.api.MemberOperations;
 import org.springframework.social.oauth2.AbstractOAuth2ApiBinding;
@@ -14,6 +15,7 @@ import org.springframework.social.support.ClientHttpRequestFactorySelector;
 public class MeetupTemplate extends AbstractOAuth2ApiBinding implements Meetup {
 
 	private MemberOperations memberOperations;
+	private EventOperations eventOperations;
 	
 	public MeetupTemplate() {
 		initialize();
@@ -29,6 +31,11 @@ public class MeetupTemplate extends AbstractOAuth2ApiBinding implements Meetup {
 		return memberOperations;
 	}
 
+	@Override
+	public EventOperations eventOperations() {
+		
+		return eventOperations;
+	}
 	
 	/**
 	 * private helpers.

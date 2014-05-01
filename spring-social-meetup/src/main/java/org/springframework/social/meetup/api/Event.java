@@ -7,6 +7,7 @@ package org.springframework.social.meetup.api;
  */
 
 import java.math.BigInteger;
+import java.util.List;
 
 public class Event {
 
@@ -16,6 +17,7 @@ public class Event {
 	private int distance;
 	private int duration;
 	private boolean email_remainders;
+	private List<EventHost> event_hosts;
 	private String event_url;
 	private boolean featured;
 	private Group group;
@@ -28,11 +30,14 @@ public class Event {
 	private int photo_album_id;
 	private int photo_count;
 	private String photo_url;
+	private Rating rating;
 	private boolean rsvp_alerts;
 	private int rsvp_limit;
+	private RsvpRules rsvp_rules;
 	private boolean rsvpable;
 	private String short_link;
 	private String simple_html_code;
+	private List<SurveyQuestion> survey_questions;
 	private BigInteger time;	
 	private int trending_rank;
 	private BigInteger updated;
@@ -41,7 +46,6 @@ public class Event {
 	private int waitlist_count;
 	private String why;
 	private int yes_rsvp_count;
-
 	public boolean isAnnounced() {
 		return announced;
 	}
@@ -59,6 +63,9 @@ public class Event {
 	}
 	public boolean isEmail_remainders() {
 		return email_remainders;
+	}
+	public List<EventHost> getEvent_hosts() {
+		return event_hosts;
 	}
 	public String getEvent_url() {
 		return event_url;
@@ -96,11 +103,17 @@ public class Event {
 	public String getPhoto_url() {
 		return photo_url;
 	}
+	public Rating getRating() {
+		return rating;
+	}
 	public boolean isRsvp_alerts() {
 		return rsvp_alerts;
 	}
 	public int getRsvp_limit() {
 		return rsvp_limit;
+	}
+	public RsvpRules getRsvp_rules() {
+		return rsvp_rules;
 	}
 	public boolean isRsvpable() {
 		return rsvpable;
@@ -110,6 +123,9 @@ public class Event {
 	}
 	public String getSimple_html_code() {
 		return simple_html_code;
+	}
+	public List<SurveyQuestion> getSurvey_questions() {
+		return survey_questions;
 	}
 	public BigInteger getTime() {
 		return time;
@@ -135,5 +151,5 @@ public class Event {
 	public int getYes_rsvp_count() {
 		return yes_rsvp_count;
 	}
-		
+
 }
