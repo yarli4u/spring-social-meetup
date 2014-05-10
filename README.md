@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/yarli4u/spring-social-meetup.svg?branch=master)](https://travis-ci.org/yarli4u/spring-social-meetup)
+
 spring-social-meetup
 ====================
 
