@@ -18,7 +18,7 @@
 		<spring.framework.version>3.2.8.RELEASE</spring.framework.version>
 		
 		<!-- Jackson - Java JSON Parser and Data Binder -->
-		<jackson.version>1.9.13</jackson.version>
+		<jackson.version>2.3.0</jackson.version>
 		
 		<!-- JUnit -->
 		<junit.version>4.11</junit.version>
@@ -93,25 +93,21 @@
 		</dependency>
 		
 		<!-- Jackson Jar Files. -->
+		
 		<dependency>
-			<groupId>org.codehaus.jackson</groupId>
-			<artifactId>jackson-mapper-asl</artifactId>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
 			<version>${jackson.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-core</artifactId>
-			<version>2.3.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>2.3.0</version>
+			<version>${jackson.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-annotations</artifactId>
-			<version>2.3.0</version>
+			<version>${jackson.version}</version>
 		</dependency>
 
 		<!-- Junit Jar Files-->
