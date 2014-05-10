@@ -10,6 +10,9 @@ import java.math.BigInteger;
 import java.util.List;
 import java.util.Locale;
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Member {
 
 	private String bio;
