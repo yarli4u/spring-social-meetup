@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>Sign In</title>
+	</head>
+	<body>
+		<form th:action="@{/signin/meetup}" method="POST">
+			<button type="submit">Sign in with Meetup</button>
+			<input type="hidden" name="scope" value="basic" />
+		</form>
+	</body>
+</html>

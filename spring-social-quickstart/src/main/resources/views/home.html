@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>Home</title>
+	</head>
+	<body>
+	<ul>
+		<li><a th:href="@{/signout}">Sign Out</a></li>
+	</ul>
+	<h3>Your Meetup Member Details</h3>
+
+	<label>Id</label><span th:text="${profile.id}"></span>
+	<br />
+	<label>Name:</label><span th:text="${profile.name}"></span> 
+	<br />
+	<label>Joined:</label><span th:text="${profile.joined}"></span>
+	<br />
+	<label>City:</label><span th:text="${profile.city}"></span>
+	<br />
+	<label>Country:</label><span th:text="${profile.country}"></span>
+	</body>
+</html>
