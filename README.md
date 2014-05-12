@@ -10,7 +10,17 @@ A provider extension for Spring Social to enable connectivity with Meetup and AP
   To check out the project and to build from source, do the following:
 
   git clone git://github.com/yarli4u/spring-social-meetup.git
-  cd spring-social.meetup
+
+  cd spring-social-meetup
+
   mvn clean compile jar:jar
 
 * **spring-social-quickstart**, designed to get you up and running quickly.
+
+  To check out the project and to build from source, do the following:
+
+  git clone git://github.com/yarli4u/spring-social-meetup.git
+
+  cd spring-social-quickstart
+
+  mvn clean compile war:war

@@ -32,7 +32,7 @@ public class MeetupAdapter implements ApiAdapter<Meetup> {
 		Member self = meetup.memberOperations().getDetails();
 		connValues.setDisplayName(self.getName());
 		connValues.setImageUrl(self.getPhoto_url());
-		connValues.setProviderUserId(self.getName());
+		connValues.setProviderUserId(self.getId());
 	}
 
 	@Override
