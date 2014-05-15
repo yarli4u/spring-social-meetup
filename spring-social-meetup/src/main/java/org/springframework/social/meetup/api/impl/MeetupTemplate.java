@@ -48,5 +48,6 @@ public class MeetupTemplate extends AbstractOAuth2ApiBinding implements Meetup {
 	
 	private void initSubApis() {
 		memberOperations = new MemberTemplate(getRestTemplate(), isAuthorized());
+		eventOperations = new EventTemplate(getRestTemplate(), isAuthorized());
 	}
 }
