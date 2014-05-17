@@ -2,10 +2,14 @@ package org.springframework.social.meetup.api;
 
 import java.math.BigInteger;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 /**
  * @author Suresh Kumar (yarli4u).
  *
  */
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Venue {
 	
 	private BigInteger id;

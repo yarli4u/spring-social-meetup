@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.social.meetup.api.Event;
 import org.springframework.social.meetup.api.EventOperations;
+import org.springframework.social.meetup.api.EventResults;
 import org.springframework.web.client.RestTemplate;
 
 public class EventTemplate extends AbstractMeetupOperations implements 
@@ -19,8 +20,8 @@ public class EventTemplate extends AbstractMeetupOperations implements
 	@Override
 	public List<Event> getSelfEvents() {
 		
-		@SuppressWarnings("unchecked")
-		List<Event> events = restTemplate.getForObject(buildUri(EVENTS_URL, "member_id", "self"), List.class);
+		EventResults eventlist = restTemplate.getForObject(buildUri(EVENTS_URL, "member_id", "self"), EventResults.class);
+		List<Event> events = eventlist.getResults();
 		return events;
 	}
 		

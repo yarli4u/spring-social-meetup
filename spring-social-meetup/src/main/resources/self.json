@@ -1,0 +1,46 @@
+{
+"lon": 77.55999755859375,
+"hometown": "Bangalore",
+"status": "active",
+"link": "http://www.meetup.com/members/102273082",
+"self": {
+"common": { }
+},
+"lang": "en_US",
+"photo": {
+"photo_link": "http://photos1.meetupstatic.com/photos/member/c/f/b/e/member_132413182.jpeg",
+"highres_link": "http://photos1.meetupstatic.com/photos/member/c/f/b/e/highres_132413182.jpeg",
+"thumb_link": "http://photos1.meetupstatic.com/photos/member/c/f/b/e/thumb_132413182.jpeg",
+"photo_id": 132413182
+},
+"city": "Bangalore",
+"country": "in",
+"id": 102273082,
+"visited": 1399483058000,
+"topics": [
+{
+"id": 6640,
+"urlkey": "table-tennis",
+"name": "Table Tennis"
+},
+{
+"id": 40786,
+"urlkey": "spring",
+"name": "Spring"
+},
+{
+"id": 189,
+"urlkey": "java",
+"name": "Java"
+},
+{
+"id": 7029,
+"urlkey": "javascript",
+"name": "JavaScript"
+}
+],
+"joined": 1373868987000,
+"name": "Suresh",
+"other_services": { },
+"lat": 12.970000267028809
+}

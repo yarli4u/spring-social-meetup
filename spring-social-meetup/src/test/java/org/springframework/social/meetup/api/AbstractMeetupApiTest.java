@@ -8,7 +8,7 @@ import org.springframework.test.web.client.MockRestServiceServer;
 
 public class AbstractMeetupApiTest {
 	
-	protected static final String ACCESS_TOKEN="";
+	protected static final String ACCESS_TOKEN="9c0ef3fa584c48a48308faff993b3cbd";
 	
 	protected MeetupTemplate meetup;
 	protected MockRestServiceServer mockServer;

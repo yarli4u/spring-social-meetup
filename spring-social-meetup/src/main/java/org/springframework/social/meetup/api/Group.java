@@ -2,6 +2,9 @@ package org.springframework.social.meetup.api;
 
 import java.math.BigInteger;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Group {
 
 	private BigInteger id;

@@ -2,6 +2,9 @@ package org.springframework.social.meetup.api;
 
 import java.util.Date;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class RsvpRules {
 	
 	private Date close_time;

@@ -1,5 +1,8 @@
 package org.springframework.social.meetup.api;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class SurveyQuestion {
 
 	private int id;

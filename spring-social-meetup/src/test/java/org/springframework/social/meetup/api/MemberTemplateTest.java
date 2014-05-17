@@ -4,6 +4,7 @@ import static org.springframework.test.web.client.match.MockRestRequestMatchers.
 import static org.springframework.test.web.client.match.MockRestRequestMatchers.requestTo;
 import static org.springframework.test.web.client.response.MockRestResponseCreators.withSuccess;
 import static org.springframework.http.MediaType.APPLICATION_JSON;
+import static org.junit.Assert.*;
 
 import org.junit.Test;
 import org.springframework.http.HttpMethod;
@@ -16,10 +17,10 @@ public class MemberTemplateTest extends AbstractMeetupApiTest {
 		mockServer
 		.expect(requestTo("https://api.meetup.com/2/member/self"))
 		.andExpect(method(HttpMethod.GET))
-		.andRespond(
-					withSuccess(jsonResource("self"), APPLICATION_JSON)	);
+		.andRespond(withSuccess(jsonResource("/self"), APPLICATION_JSON));
 		
 		Member self = meetup.memberOperations().getDetails();
+		assertEquals("102273082", self.getId());		
 	}
 
 }
