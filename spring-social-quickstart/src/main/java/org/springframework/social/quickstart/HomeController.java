@@ -15,8 +15,11 @@
  */
 package org.springframework.social.quickstart;
 
+import java.util.List;
+
 import javax.inject.Inject;
 
+import org.springframework.social.meetup.api.Event;
 import org.springframework.social.meetup.api.Meetup;
 import org.springframework.social.meetup.api.Member;
 import org.springframework.stereotype.Controller;
@@ -43,6 +46,9 @@ public class HomeController {
 	public String home(Model model) {
 		Member profile = meetup.memberOperations().getDetails("102273082");
 		model.addAttribute("profile", profile);
+		List<Event> events = meetup.eventOperations().getSelfEvents();
+		model.addAttribute("events", events);
+		
 		return "home";
 	}
 

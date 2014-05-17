@@ -18,5 +18,15 @@
 	<label>City:</label><span th:text="${profile.city}"></span>
 	<br />
 	<label>Country:</label><span th:text="${profile.country}"></span>
+	
+	<h3>Your Meetup Events</h3>
+	<ul>
+		<li th:each="event : ${events}">
+			
+			<span th:text="${event.name} - ${event.id}">name</span>
+		</li>
+	</ul>	
+	
+	
 	</body>
 </html>

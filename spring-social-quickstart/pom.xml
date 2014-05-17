@@ -24,6 +24,7 @@
 		
 		<!-- H2 Database Version Details -->
 		<database.h2.version>1.3.159</database.h2.version>
+		<mysql.version>5.1.29</mysql.version>
 		
 		<!-- Servlet Version Details. -->
 		<javax.servlet.api.version>2.5</javax.servlet.api.version>
@@ -141,6 +142,11 @@
 			<artifactId>h2</artifactId>
 			<version>${database.h2.version}</version>
 	    </dependency>
+	    <dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>${mysql.version}</version>
+		</dependency>
 	    
 	    <!-- Thymeleaf -->
 	    <dependency>
