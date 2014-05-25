@@ -40,6 +40,7 @@ public class Event {
 	private boolean rsvpable;
 	private String short_link;
 	private String simple_html_code;
+	private Status status;
 	private List<SurveyQuestion> survey_questions;
 	private BigInteger time;	
 	private int trending_rank;
@@ -126,6 +127,9 @@ public class Event {
 	}
 	public String getSimple_html_code() {
 		return simple_html_code;
+	}
+	public Status getStatus() {
+		return status;
 	}
 	public List<SurveyQuestion> getSurvey_questions() {
 		return survey_questions;

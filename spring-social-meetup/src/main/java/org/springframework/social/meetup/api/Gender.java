@@ -1,5 +1,7 @@
 package org.springframework.social.meetup.api;
 
+import com.fasterxml.jackson.annotation.JsonValue;
+
 /**
  * 
  * @author  Suresh Kumar (yarli4u).
@@ -18,5 +20,7 @@ public enum Gender {
 	private Gender(String value) {
 		this.value = value;
 	}
+	
+	@JsonValue
 	public String getValue() { return value;}
 }
