@@ -1,0 +1,221 @@
+{
+
+    "results": [
+        {
+            "lon": -73.98999786376953,
+            "visibility": "public_limited",
+            "organizer": {
+                "name": "Doug Tangren",
+                "member_id": 8157820
+            },
+            "link": "http://www.meetup.com/Meetup-API-Testing/",
+            "state": "NY",
+            "join_mode": "open",
+            "who": "Developers",
+            "country": "US",
+            "city": "Brooklyn",
+            "id": 1556336,
+            "category": {
+                "id": 34,
+                "name": "tech",
+                "shortname": "tech"
+            },
+            "topics": [
+                {
+                    "id": 60273,
+                    "urlkey": "meetup-api",
+                    "name": "Meetup API"
+                },
+                {
+                    "id": 151434,
+                    "urlkey": "get-it-done-day",
+                    "name": "Get It Done Day"
+                }
+            ],
+            "timezone": "US/Eastern",
+            "group_photo": {
+                "photo_link": "http://photos4.meetupstatic.com/photos/event/d/9/1/2/600_22495570.jpeg",
+                "highres_link": "http://photos2.meetupstatic.com/photos/event/d/9/1/2/highres_22495570.jpeg",
+                "thumb_link": "http://photos2.meetupstatic.com/photos/event/d/9/1/2/thumb_22495570.jpeg",
+                "photo_id": 22495570
+            },
+            "created": 1258123610000,
+            "description": "<p>Hi, this group is only for testing the Meetup API. If working on an application for the API (or just want to play around with the API), join up! If you need to test organizer features, we can make you an assistant organizer for a while. Let's not use this for discussion since people will be testing and most of us will have the e-mail notifications turned off. The Meetup API mailing list is still the best place for that: http://groups.google.com/group/meetup-api/topics</p>",
+            "name": "Meetup API Testing",
+            "rating": 4.25,
+            "urlname": "Meetup-API-Testing",
+            "lat": 40.70000076293945,
+            "members": 3396
+        },
+        {
+            "lon": 77.55999755859375,
+            "visibility": "public",
+            "organizer": {
+                "name": "Ranganath.S",
+                "member_id": 5084511
+            },
+            "link": "http://www.meetup.com/BangaloreOpenJUG/",
+            "join_mode": "open",
+            "who": "juggie'z",
+            "country": "IN",
+            "city": "Bangalore",
+            "id": 3189882,
+            "category": {
+                "id": 34,
+                "name": "tech",
+                "shortname": "tech"
+            },
+            "topics": [
+                {
+                    "id": 189,
+                    "urlkey": "java",
+                    "name": "Java"
+                },
+                {
+                    "id": 563,
+                    "urlkey": "opensource",
+                    "name": "Open Source"
+                },
+                {
+                    "id": 32745,
+                    "urlkey": "j2ee",
+                    "name": "J2EE"
+                }
+            ],
+            "timezone": "Asia/Calcutta",
+            "group_photo": {
+                "photo_link": "http://photos4.meetupstatic.com/photos/event/8/5/7/2/600_90334162.jpeg",
+                "highres_link": "http://photos2.meetupstatic.com/photos/event/8/5/7/2/highres_90334162.jpeg",
+                "thumb_link": "http://photos4.meetupstatic.com/photos/event/8/5/7/2/thumb_90334162.jpeg",
+                "photo_id": 90334162
+            },
+            "created": 1327853561000,
+            "description": "<p><a href="http://bojug.wikispaces.com/"></a>The purpose of this JUG is to provide a forum to share ideas, discuss and to promote Java. Anybody with an interest in Java is encouraged to join. We meet once a month. The meetings will include tech talks on various topics related to Java. In addition to the meetings, we plan to have code jams, workshops and bof sessions on a regular basis. Come, connect and collaborate at the <a href="https://bojug.dev.java.net/" target="_blank">BOJUG home page</a> &amp; the <a href="http://groups.google.com/group/bojug" target="_blank">mailing list</a> and be a part of something awesome.<br> <br> We are a group of Java developers in Bangalore, engineers (to say the least) we hope to create a thriving Java community in Bangalore. Java being open sourced is easily one of the greatest piece of news in recent memory for us developers. Now, Java will be adopted even more widely than it was. Part of being open source means to build communities. Communities of developers, users, experts and beginners, which are needed for the greater adoption of Java. These communities are the life-line of any open source product, and as users, it is our responsibility to strengthen Java's life-line</p>",
+            "name": "Bangalore Open Java User Group",
+            "rating": 4.24,
+            "urlname": "BangaloreOpenJUG",
+            "lat": 12.970000267028809,
+            "members": 1096
+        },
+        {
+            "lon": 77.55999755859375,
+            "visibility": "public",
+            "organizer": {
+                "name": "Mrinal Bagaria",
+                "member_id": 92269682
+            },
+            "link": "http://www.meetup.com/Bangalore-Open-Spring-User-Group/",
+            "join_mode": "open",
+            "who": "Spring Geeks",
+            "country": "IN",
+            "city": "Bangalore",
+            "id": 11205502,
+            "category": {
+                "id": 34,
+                "name": "tech",
+                "shortname": "tech"
+            },
+            "topics": [
+                {
+                    "id": 189,
+                    "urlkey": "java",
+                    "name": "Java"
+                },
+                {
+                    "id": 1841,
+                    "urlkey": "struts",
+                    "name": "Struts"
+                },
+                {
+                    "id": 17628,
+                    "urlkey": "programming-languages",
+                    "name": "Programming Languages"
+                },
+                {
+                    "id": 20126,
+                    "urlkey": "groovy",
+                    "name": "Groovy"
+                },
+                {
+                    "id": 21520,
+                    "urlkey": "grails",
+                    "name": "Grails"
+                },
+                {
+                    "id": 21683,
+                    "urlkey": "groovy-programming-language",
+                    "name": "Groovy Programming Language"
+                },
+                {
+                    "id": 32745,
+                    "urlkey": "j2ee",
+                    "name": "J2EE"
+                },
+                {
+                    "id": 40786,
+                    "urlkey": "spring",
+                    "name": "Spring"
+                },
+                {
+                    "id": 40787,
+                    "urlkey": "hibernate",
+                    "name": "Hibernate"
+                },
+                {
+                    "id": 50224,
+                    "urlkey": "spring-framework",
+                    "name": "Spring Framework"
+                },
+                {
+                    "id": 57877,
+                    "urlkey": "java-programming",
+                    "name": "Java Programming"
+                },
+                {
+                    "id": 97776,
+                    "urlkey": "vmware",
+                    "name": "VMware"
+                },
+                {
+                    "id": 438722,
+                    "urlkey": "vmware-certified-professionals",
+                    "name": "VMware Certified Professionals"
+                },
+                {
+                    "id": 438732,
+                    "urlkey": "vmware-certified-advanced-professionals",
+                    "name": "VMware Certified Advanced Professionals"
+                }
+            ],
+            "timezone": "Asia/Calcutta",
+            "group_photo": {
+                "photo_link": "http://photos4.meetupstatic.com/photos/event/9/1/3/e/600_311077182.jpeg",
+                "highres_link": "http://photos2.meetupstatic.com/photos/event/9/1/3/e/highres_311077182.jpeg",
+                "thumb_link": "http://photos4.meetupstatic.com/photos/event/9/1/3/e/thumb_311077182.jpeg",
+                "photo_id": 311077182
+            },
+            "created": 1385119349000,
+            "description": "<p>This group is an open platform for Spring users to meet, collaborate &amp; discuss Spring framework and it's related technologies and emergining trends. Anyone with interest in Spring (to learn, share, understand, discuss, innovate) can join this group.</p> <p>In addition, there are regular tech-talks delivered by Subject Matter Experts, Industry Veterans and Technology-Leads to the members of this group. Some of the key speakers in the past have been technology champions from SpringSource - Paul, Michael, Kamal, Siva, Manjunath etc.</p> <p>Come. Join. Share.</p>",
+            "name": "Bangalore Open Spring User Group",
+            "rating": 0,
+            "urlname": "Bangalore-Open-Spring-User-Group",
+            "lat": 12.970000267028809,
+            "members": 62
+        }
+    ],
+    "meta": {
+        "lon": "",
+        "count": 3,
+        "signed_url": "http://api.meetup.com/2/groups?radius=25.0&order=id&desc=false&member_id=102273082&offset=0&format=json&page=20&fields=&sig_id=102273082&sig=100e54107787928e0a83a32900460e24cdb7f382",
+        "link": "http://www.meetup.com/2/groups",
+        "next": "",
+        "total_count": 3,
+        "url": "http://www.meetup.com/2/groups?radius=25.0&order=id&desc=false&member_id=102273082&offset=0&format=json&page=20&fields=&sign=True",
+        "id": "",
+        "title": "Meetup Groups v2",
+        "updated": 1401527057000,
+        "description": "",
+        "method": "Groups",
+        "lat": ""
+    }
+}

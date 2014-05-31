@@ -47,8 +47,7 @@ public class EventTemplate extends AbstractMeetupOperations implements
 	@Override
 	public List<Event> findByGroup(List<String> groupID) {
 		
-		int idsLength = groupID.toString().length()-1;
-		String gIds = groupID.toString().substring(1, idsLength).replace(", ", ",");
+		String gIds = listToString(groupID);
 		
 		EventResults eventlist = restTemplate.getForObject(buildUri(EVENTS_URL,"group_id",gIds), EventResults.class);
 		List<Event> events = eventlist.getResults();
@@ -57,6 +56,6 @@ public class EventTemplate extends AbstractMeetupOperations implements
 	}
 
 	//URL Constants
-	public static final String EVENTS_URL = "events";
+	public static final String EVENTS_URL = "2/events";
 
 }

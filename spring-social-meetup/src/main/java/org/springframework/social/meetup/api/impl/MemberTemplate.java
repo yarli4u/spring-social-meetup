@@ -24,13 +24,16 @@ public class MemberTemplate extends AbstractMeetupOperations implements
 	@Override
 	public Member getDetails() {
 		
-		return restTemplate.getForObject(buildUri("member/self"), Member.class);
+		return restTemplate.getForObject(buildUri(MEMBER_URL_SELF), Member.class);
 	}
 
 	@Override
 	public Member getDetails(String id) {
 		
-		return restTemplate.getForObject(buildUri("member/"+id), Member.class);
+		return restTemplate.getForObject(buildUri(MEMBER_URL+id), Member.class);
 	}
 
+	
+	private static final String MEMBER_URL_SELF = "2/member/self";
+	private static final String MEMBER_URL = "2/member/";
 }
