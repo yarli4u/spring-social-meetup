@@ -10,5 +10,5 @@ public interface GroupOperations {
 	public List<Group> findByID(String groupID);
 	
 	
-	public List<Group> findByLocation(String country,String city);
+	public List<Group> findByRadius(String country,String city);
 }

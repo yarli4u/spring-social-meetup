@@ -11,4 +11,5 @@ public interface Meetup {
 	MemberOperations memberOperations();
 	EventOperations eventOperations();
 	GroupOperations groupOperations();
+	RsvpOperations rsvpOperations();
 }

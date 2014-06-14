@@ -10,6 +10,7 @@ import org.springframework.social.meetup.api.EventOperations;
 import org.springframework.social.meetup.api.GroupOperations;
 import org.springframework.social.meetup.api.Meetup;
 import org.springframework.social.meetup.api.MemberOperations;
+import org.springframework.social.meetup.api.RsvpOperations;
 import org.springframework.social.oauth2.AbstractOAuth2ApiBinding;
 import org.springframework.social.support.ClientHttpRequestFactorySelector;
 
@@ -18,6 +19,7 @@ public class MeetupTemplate extends AbstractOAuth2ApiBinding implements Meetup {
 	private MemberOperations memberOperations;
 	private EventOperations eventOperations;
 	private GroupOperations groupOperations;
+	private RsvpOperations rsvpOperations;
 	
 	public MeetupTemplate() {
 		initialize();
@@ -43,6 +45,11 @@ public class MeetupTemplate extends AbstractOAuth2ApiBinding implements Meetup {
 		return groupOperations;
 	}
 
+	@Override
+	public RsvpOperations rsvpOperations() {
+		return rsvpOperations;
+	}
+
 	/**
 	 * private helpers.
 	 */
@@ -56,5 +63,6 @@ public class MeetupTemplate extends AbstractOAuth2ApiBinding implements Meetup {
 		memberOperations = new MemberTemplate(getRestTemplate(), isAuthorized());
 		eventOperations = new EventTemplate(getRestTemplate(), isAuthorized());
 		groupOperations = new GroupTemplate(getRestTemplate(), isAuthorized());
+		rsvpOperations = new RsvpTemplate(getRestTemplate(), isAuthorized());
 	}
 }

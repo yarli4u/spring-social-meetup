@@ -1,0 +1,397 @@
+{
+
+    "results": [
+        {
+            "response": "no",
+            "member": {
+                "name": "Lily",
+                "member_id": 9925328
+            },
+            "member_photo": {
+                "photo_link": "http://photos3.meetupstatic.com/photos/member/3/6/8/member_138600872.jpeg",
+                "highres_link": "http://photos3.meetupstatic.com/photos/member/3/6/8/highres_138600872.jpeg",
+                "thumb_link": "http://photos3.meetupstatic.com/photos/member/3/6/8/thumb_138600872.jpeg",
+                "photo_id": 138600872
+            },
+            "created": 1398785620000,
+            "event": {
+                "id": "179847252",
+                "time": 1401472800000,
+                "event_url": "http://www.meetup.com/Meetup-API-Testing/events/179847252/",
+                "name": "May NYTM"
+            },
+            "tallies": {
+                "yes": 0,
+                "maybe": 0,
+                "no": 9,
+                "waitlist": 0
+            },
+            "mtime": 1398785620000,
+            "guests": 0,
+            "rsvp_id": 1252520182,
+            "venue": {
+                "id": 6963732,
+                "zip": "10021",
+                "lon": -73.958839,
+                "repinned": false,
+                "name": "Black Dragon",
+                "state": "NY",
+                "address_1": "1317 3rd Avenue",
+                "lat": 40.771931,
+                "city": "New York",
+                "country": "us"
+            },
+            "group": {
+                "id": 1556336,
+                "group_lat": 40.70000076293945,
+                "group_lon": -73.98999786376953,
+                "join_mode": "open",
+                "urlname": "Meetup-API-Testing"
+            }
+        },
+        {
+            "response": "no",
+            "member": {
+                "name": "Michael Campbell",
+                "member_id": 45957692
+            },
+            "member_photo": {
+                "photo_link": "http://photos2.meetupstatic.com/photos/member/9/a/d/a/member_167739642.jpeg",
+                "thumb_link": "http://photos2.meetupstatic.com/photos/member/9/a/d/a/thumb_167739642.jpeg",
+                "photo_id": 167739642
+            },
+            "created": 1399849653000,
+            "event": {
+                "id": "179847252",
+                "time": 1401472800000,
+                "event_url": "http://www.meetup.com/Meetup-API-Testing/events/179847252/",
+                "name": "May NYTM"
+            },
+            "tallies": {
+                "yes": 0,
+                "maybe": 0,
+                "no": 9,
+                "waitlist": 0
+            },
+            "mtime": 1399849653000,
+            "guests": 0,
+            "rsvp_id": 1269182822,
+            "venue": {
+                "id": 6963732,
+                "zip": "10021",
+                "lon": -73.958839,
+                "repinned": false,
+                "name": "Black Dragon",
+                "state": "NY",
+                "address_1": "1317 3rd Avenue",
+                "lat": 40.771931,
+                "city": "New York",
+                "country": "us"
+            },
+            "group": {
+                "id": 1556336,
+                "group_lat": 40.70000076293945,
+                "group_lon": -73.98999786376953,
+                "join_mode": "open",
+                "urlname": "Meetup-API-Testing"
+            }
+        },
+        {
+            "response": "no",
+            "member": {
+                "name": "Melisa Mavrodi",
+                "member_id": 70477932
+            },
+            "member_photo": {
+                "photo_link": "http://photos2.meetupstatic.com/photos/member/7/3/b/6/member_97589622.jpeg",
+                "highres_link": "http://photos2.meetupstatic.com/photos/member/7/3/b/6/highres_97589622.jpeg",
+                "thumb_link": "http://photos4.meetupstatic.com/photos/member/7/3/b/6/thumb_97589622.jpeg",
+                "photo_id": 97589622
+            },
+            "created": 1398843997000,
+            "event": {
+                "id": "179847252",
+                "time": 1401472800000,
+                "event_url": "http://www.meetup.com/Meetup-API-Testing/events/179847252/",
+                "name": "May NYTM"
+            },
+            "tallies": {
+                "yes": 0,
+                "maybe": 0,
+                "no": 9,
+                "waitlist": 0
+            },
+            "mtime": 1398843997000,
+            "guests": 0,
+            "rsvp_id": 1253612292,
+            "venue": {
+                "id": 6963732,
+                "zip": "10021",
+                "lon": -73.958839,
+                "repinned": false,
+                "name": "Black Dragon",
+                "state": "NY",
+                "address_1": "1317 3rd Avenue",
+                "lat": 40.771931,
+                "city": "New York",
+                "country": "us"
+            },
+            "group": {
+                "id": 1556336,
+                "group_lat": 40.70000076293945,
+                "group_lon": -73.98999786376953,
+                "join_mode": "open",
+                "urlname": "Meetup-API-Testing"
+            }
+        },
+        {
+            "response": "no",
+            "member": {
+                "name": "Sunny Sharma",
+                "member_id": 92261972
+            },
+            "member_photo": {
+                "photo_link": "http://photos3.meetupstatic.com/photos/member/3/c/2/0/member_118155392.jpeg",
+                "highres_link": "http://photos3.meetupstatic.com/photos/member/3/c/2/0/highres_118155392.jpeg",
+                "thumb_link": "http://photos3.meetupstatic.com/photos/member/3/c/2/0/thumb_118155392.jpeg",
+                "photo_id": 118155392
+            },
+            "created": 1401085288000,
+            "event": {
+                "id": "179847252",
+                "time": 1401472800000,
+                "event_url": "http://www.meetup.com/Meetup-API-Testing/events/179847252/",
+                "name": "May NYTM"
+            },
+            "tallies": {
+                "yes": 0,
+                "maybe": 0,
+                "no": 9,
+                "waitlist": 0
+            },
+            "mtime": 1401085288000,
+            "guests": 0,
+            "rsvp_id": 1287978452,
+            "venue": {
+                "id": 6963732,
+                "zip": "10021",
+                "lon": -73.958839,
+                "repinned": false,
+                "name": "Black Dragon",
+                "state": "NY",
+                "address_1": "1317 3rd Avenue",
+                "lat": 40.771931,
+                "city": "New York",
+                "country": "us"
+            },
+            "group": {
+                "id": 1556336,
+                "group_lat": 40.70000076293945,
+                "group_lon": -73.98999786376953,
+                "join_mode": "open",
+                "urlname": "Meetup-API-Testing"
+            }
+        },
+        {
+            "response": "no",
+            "member": {
+                "name": "vinney-test",
+                "member_id": 133804242
+            },
+            "member_photo": {
+                "photo_link": "http://photos2.meetupstatic.com/photos/member/b/e/1/6/member_197328662.jpeg",
+                "highres_link": "http://photos2.meetupstatic.com/photos/member/b/e/1/6/highres_197328662.jpeg",
+                "thumb_link": "http://photos4.meetupstatic.com/photos/member/b/e/1/6/thumb_197328662.jpeg",
+                "photo_id": 197328662
+            },
+            "created": 1398710633000,
+            "event": {
+                "id": "179847252",
+                "time": 1401472800000,
+                "event_url": "http://www.meetup.com/Meetup-API-Testing/events/179847252/",
+                "name": "May NYTM"
+            },
+            "tallies": {
+                "yes": 0,
+                "maybe": 0,
+                "no": 9,
+                "waitlist": 0
+            },
+            "mtime": 1399407094000,
+            "guests": 0,
+            "rsvp_id": 1251230582,
+            "venue": {
+                "id": 6963732,
+                "zip": "10021",
+                "lon": -73.958839,
+                "repinned": false,
+                "name": "Black Dragon",
+                "state": "NY",
+                "address_1": "1317 3rd Avenue",
+                "lat": 40.771931,
+                "city": "New York",
+                "country": "us"
+            },
+            "group": {
+                "id": 1556336,
+                "group_lat": 40.70000076293945,
+                "group_lon": -73.98999786376953,
+                "join_mode": "open",
+                "urlname": "Meetup-API-Testing"
+            }
+        },
+        {
+            "response": "no",
+            "member": {
+                "name": "Gastón Rohde",
+                "member_id": 136565172
+            },
+            "member_photo": {
+                "photo_link": "http://photos2.meetupstatic.com/photos/member/5/a/0/c/member_182663052.jpeg",
+                "highres_link": "http://photos4.meetupstatic.com/photos/member/5/a/0/c/highres_182663052.jpeg",
+                "thumb_link": "http://photos2.meetupstatic.com/photos/member/5/a/0/c/thumb_182663052.jpeg",
+                "photo_id": 182663052
+            },
+            "created": 1400069825000,
+            "event": {
+                "id": "179847252",
+                "time": 1401472800000,
+                "event_url": "http://www.meetup.com/Meetup-API-Testing/events/179847252/",
+                "name": "May NYTM"
+            },
+            "tallies": {
+                "yes": 0,
+                "maybe": 0,
+                "no": 9,
+                "waitlist": 0
+            },
+            "mtime": 1400069825000,
+            "guests": 0,
+            "rsvp_id": 1272839932,
+            "venue": {
+                "id": 6963732,
+                "zip": "10021",
+                "lon": -73.958839,
+                "repinned": false,
+                "name": "Black Dragon",
+                "state": "NY",
+                "address_1": "1317 3rd Avenue",
+                "lat": 40.771931,
+                "city": "New York",
+                "country": "us"
+            },
+            "group": {
+                "id": 1556336,
+                "group_lat": 40.70000076293945,
+                "group_lon": -73.98999786376953,
+                "join_mode": "open",
+                "urlname": "Meetup-API-Testing"
+            }
+        },
+        {
+            "response": "no",
+            "member": {
+                "name": "Steven Yang",
+                "member_id": 139164532
+            },
+            "created": 1400949083000,
+            "event": {
+                "id": "179847252",
+                "time": 1401472800000,
+                "event_url": "http://www.meetup.com/Meetup-API-Testing/events/179847252/",
+                "name": "May NYTM"
+            },
+            "tallies": {
+                "yes": 0,
+                "maybe": 0,
+                "no": 9,
+                "waitlist": 0
+            },
+            "mtime": 1400949083000,
+            "guests": 0,
+            "rsvp_id": 1286315782,
+            "venue": {
+                "id": 6963732,
+                "zip": "10021",
+                "lon": -73.958839,
+                "repinned": false,
+                "name": "Black Dragon",
+                "state": "NY",
+                "address_1": "1317 3rd Avenue",
+                "lat": 40.771931,
+                "city": "New York",
+                "country": "us"
+            },
+            "group": {
+                "id": 1556336,
+                "group_lat": 40.70000076293945,
+                "group_lon": -73.98999786376953,
+                "join_mode": "open",
+                "urlname": "Meetup-API-Testing"
+            }
+        },
+        {
+            "response": "no",
+            "member": {
+                "name": "Raphael Alves Augusto",
+                "member_id": 147412342
+            },
+            "member_photo": {
+                "photo_link": "http://photos3.meetupstatic.com/photos/member/8/e/f/0/member_198756592.jpeg",
+                "thumb_link": "http://photos1.meetupstatic.com/photos/member/8/e/f/0/thumb_198756592.jpeg",
+                "photo_id": 198756592
+            },
+            "created": 1400710158000,
+            "event": {
+                "id": "179847252",
+                "time": 1401472800000,
+                "event_url": "http://www.meetup.com/Meetup-API-Testing/events/179847252/",
+                "name": "May NYTM"
+            },
+            "tallies": {
+                "yes": 0,
+                "maybe": 0,
+                "no": 9,
+                "waitlist": 0
+            },
+            "mtime": 1400710158000,
+            "guests": 0,
+            "rsvp_id": 1282823692,
+            "venue": {
+                "id": 6963732,
+                "zip": "10021",
+                "lon": -73.958839,
+                "repinned": false,
+                "name": "Black Dragon",
+                "state": "NY",
+                "address_1": "1317 3rd Avenue",
+                "lat": 40.771931,
+                "city": "New York",
+                "country": "us"
+            },
+            "group": {
+                "id": 1556336,
+                "group_lat": 40.70000076293945,
+                "group_lon": -73.98999786376953,
+                "join_mode": "open",
+                "urlname": "Meetup-API-Testing"
+            }
+        }
+    ],
+    "meta": {
+        "lon": "",
+        "count": 8,
+        "signed_url": "http://api.meetup.com/2/rsvps?event_id=179847252&order=event&desc=false&offset=0&format=json&page=20&fields=&sig_id=102273082&sig=00d1af0efbd52d642f107543803a6576c02420c3",
+        "link": "http://www.meetup.com/2/rsvps",
+        "next": "",
+        "total_count": 8,
+        "url": "http://www.meetup.com/2/rsvps?event_id=179847252&order=event&desc=false&offset=0&format=json&page=20&fields=&sign=True",
+        "id": "",
+        "title": "Meetup RSVPs v2",
+        "updated": 1401085288000,
+        "description": "Query for Event RSVPs by event",
+        "method": "RSVPs v2",
+        "lat": ""
+    }
+
+}

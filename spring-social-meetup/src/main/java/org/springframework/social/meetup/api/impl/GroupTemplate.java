@@ -49,7 +49,7 @@ public class GroupTemplate extends AbstractMeetupOperations implements
 	}
 
 	@Override
-	public List<Group> findByLocation(String country, String city) {
+	public List<Group> findByRadius(String country, String city) {
 		
 		MultiValueMap<String, String> params = new LinkedMultiValueMap<String,String>();
 		params.add("country", country);
