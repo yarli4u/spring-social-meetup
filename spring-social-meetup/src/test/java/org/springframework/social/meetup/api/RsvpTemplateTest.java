@@ -25,4 +25,16 @@ public class RsvpTemplateTest extends AbstractMeetupApiTest {
 		List<Rsvp> rsvps = meetup.rsvpOperations().findByEvent("179847252");
 		assertEquals(8, rsvps.size());
 	}
+	
+	@Test
+	public void createRsvpTest() {
+		
+		mockServer
+			.expect(requestTo("https://api.meetup.com/2/rsvp?event_id=179847252&rsvp=yes"))
+			.andExpect(method(HttpMethod.POST))
+			.andRespond(withSuccess(jsonResource("/rsvp_create"), APPLICATION_JSON));
+		
+		Rsvp rsvp = meetup.rsvpOperations().create("179847252",Response.YES);
+		System.out.println("Id:"+rsvp.getRsvp_id());
+	}
 }

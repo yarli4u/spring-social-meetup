@@ -14,6 +14,7 @@ public class Rsvp {
 
 	private String comments;
 	private BigInteger created;
+	private Event event;
 	private int guests;
 	private boolean host;
 	private BigInteger mtime;
@@ -21,12 +22,25 @@ public class Rsvp {
 	private BigInteger rsvp_id;
 	private Venue venue;
 	private boolean watching;
+
+	public Rsvp() {
+		
+	}
+	
+	public Rsvp(Event event,Response response) {
+	
+		this.event = event;
+		this.response = response;
+	}
 	
 	public String getComments() {
 		return comments;
 	}
 	public BigInteger getCreated() {
 		return created;
+	}
+	public Event getEvent() {
+		return event;
 	}
 	public int getGuests() {
 		return guests;

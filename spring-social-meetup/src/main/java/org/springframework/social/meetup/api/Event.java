@@ -50,6 +50,16 @@ public class Event {
 	private int waitlist_count;
 	private String why;
 	private int yes_rsvp_count;
+	
+	public Event() {
+		
+	}
+	public Event(String event_url,String id,String name) {
+		this.event_url = event_url;
+		this.id = id;
+		this.name = name;
+	}
+	
 	public boolean isAnnounced() {
 		return announced;
 	}
