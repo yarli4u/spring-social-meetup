@@ -48,10 +48,10 @@ public class RsvpTemplate extends AbstractMeetupOperations implements
 		params.add("event_id", eventID);
 		params.add("rsvp", response.getValue());
 		
-		Event event = new Event("http://www.meetup.com/Meetup-API-Testing/events/179847252/",eventID,"May NYTM");
+		Event event = new Event("http://www.meetup.com/Meetup-API-Testing/events/132178862/",eventID,"now less than weekly");
 		Rsvp rsvp = new Rsvp(event,response);
 		
-		URI uri = restTemplate.postForLocation(buildUri(RSVP_URL,params).toString(), null);
+		URI uri = restTemplate.postForLocation(buildUri(RSVP_URL,params).toString(), rsvp);
 		
 		if ( uri != null)
 			System.out.println("Location:" + uri.toString());

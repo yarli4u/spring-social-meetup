@@ -1,32 +1,22 @@
 {
-            "response": "yes",
-            "member": {
+	"response": "no",
+        "member": {
                 "name": "Suresh",
                 "member_id": 102273082
-            },
-            "member_photo": {
-                "photo_link": "http://photos1.meetupstatic.com/photos/member/c/f/b/e/member_132413182.jpeg",
-                "highres_link": "http://photos1.meetupstatic.com/photos/member/c/f/b/e/highres_132413182.jpeg",
+        },
+        "member_photo": {
+        	"photo_link": "http://photos1.meetupstatic.com/photos/member/c/f/b/e/member_132413182.jpeg",
+        	"highres_link": "http://photos1.meetupstatic.com/photos/member/c/f/b/e/highres_132413182.jpeg",
                 "thumb_link": "http://photos1.meetupstatic.com/photos/member/c/f/b/e/thumb_132413182.jpeg",
                 "photo_id": 132413182
-            },
-            "created": 1398785620000,
-            "event": {
-                "id": "179847252",
-                "time": 1401472800000,
-                "event_url": "http://www.meetup.com/Meetup-API-Testing/events/179847252/",
-                "name": "May NYTM"
-            },
-            "tallies": {
-                "yes": 0,
-                "maybe": 0,
-                "no": 9,
-                "waitlist": 0
-            },
-            "mtime": 1398785620000,
-            "guests": 0,
-            "rsvp_id": 12345,
-            "venue": {
+        },
+        "event": {
+                "id": "qjpgfdyskbpb",
+                "time": 1405117800000,
+                "event_url": "http://www.meetup.com/Meetup-API-Testing/events/132178862/",
+                "name": "now less than weekly"
+        },
+        "venue": {
                 "id": 6963732,
                 "zip": "10021",
                 "lon": -73.958839,
@@ -37,12 +27,12 @@
                 "lat": 40.771931,
                 "city": "New York",
                 "country": "us"
-            },
-            "group": {
-                "id": 1556336,
+        },
+        "group": {
+               "id": 1556336,
                 "group_lat": 40.70000076293945,
                 "group_lon": -73.98999786376953,
                 "join_mode": "open",
                 "urlname": "Meetup-API-Testing"
-            }
-        }
+       }
+}

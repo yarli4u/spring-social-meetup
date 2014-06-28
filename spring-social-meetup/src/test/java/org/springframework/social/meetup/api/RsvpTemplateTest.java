@@ -30,11 +30,11 @@ public class RsvpTemplateTest extends AbstractMeetupApiTest {
 	public void createRsvpTest() {
 		
 		mockServer
-			.expect(requestTo("https://api.meetup.com/2/rsvp?event_id=179847252&rsvp=yes"))
+			.expect(requestTo("https://api.meetup.com/2/rsvp?event_id=132178862&rsvp=no"))
 			.andExpect(method(HttpMethod.POST))
 			.andRespond(withSuccess(jsonResource("/rsvp_create"), APPLICATION_JSON));
 		
-		Rsvp rsvp = meetup.rsvpOperations().create("179847252",Response.YES);
+		Rsvp rsvp = meetup.rsvpOperations().create("132178862",Response.NO);
 		System.out.println("Id:"+rsvp.getRsvp_id());
 	}
 }
